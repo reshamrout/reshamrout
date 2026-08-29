@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero.svg">
-    <img src="assets/hero.svg" alt="Resham Rout - Full-Stack Software Engineer" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero.svg?v=3">
+    <source media="(prefers-color-scheme: light)" srcset="assets/hero.svg?v=3">
+    <img src="assets/hero.svg?v=3" alt="Resham Rout - Full-Stack Software Engineer" />
   </picture>
 </div>
 
@@ -22,9 +22,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/terminal.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/terminal.svg">
-    <img src="assets/terminal.svg" alt="Terminal UI" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/terminal.svg?v=3">
+    <source media="(prefers-color-scheme: light)" srcset="assets/terminal.svg?v=3">
+    <img src="assets/terminal.svg?v=3" alt="Terminal UI" />
   </picture>
 </div>
 
