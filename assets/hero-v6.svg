@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="560" viewBox="0 0 2000 560">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05080E" />
+      <stop offset="50%" stop-color="#070B12" />
+      <stop offset="100%" stop-color="#0A0F1A" />
+    </linearGradient>
+
+    <!-- Edge Glows -->
+    <radialGradient id="leftGlow" cx="0%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#2862FF" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#2862FF" stop-opacity="0" />
+    </radialGradient>
+    
+    <radialGradient id="rightGlow" cx="100%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#9D4EDD" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#9D4EDD" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Name Gradient -->
+    <linearGradient id="routGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EAF0FF" />
+      <stop offset="50%" stop-color="#B3CAFF" />
+      <stop offset="100%" stop-color="#A390FF" />
+    </linearGradient>
+
+    <!-- Grid Pattern & Mask -->
+    <pattern id="gridPattern" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 80 0 L 0 0 0 80" fill="none" stroke="#2B3A55" stroke-width="1" stroke-opacity="0.25" />
+    </pattern>
+    <radialGradient id="gridMaskGradient" cx="50%" cy="50%" r="75%">
+      <stop offset="30%" stop-color="#FFFFFF" stop-opacity="1" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+    <mask id="gridMask">
+      <rect width="2000" height="560" fill="url(#gridMaskGradient)" />
+    </mask>
+
+    <!-- Glowing Filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .name-white {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      font-weight: 900;
+      font-size: 85px;
+      fill: #FFFFFF;
+      letter-spacing: 4px;
+    }
+    .name-gradient {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      font-weight: 900;
+      font-size: 85px;
+      letter-spacing: 4px;
+    }
+    .title-mono {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      font-weight: 500;
+      font-size: 26px;
+      fill: #8B95A7;
+      letter-spacing: 1.5px;
+    }
+    .status-text {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      font-weight: 600;
+      font-size: 14px;
+      fill: #6B7280;
+      letter-spacing: 3px;
+    }
+    .focus-label {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      fill: #6b7280;
+      letter-spacing: 4px;
+    }
+    .focus-text {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      font-weight: 600;
+      font-size: 26px;
+      fill: #5B9CFF;
+      filter: url(#glow);
+    }
+    .focus-bracket {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      font-weight: 600;
+      font-size: 26px;
+      fill: #3b5e9e;
+    }
+    .cursor-line {
+      fill: #5B9CFF;
+      font-size: 26px;
+      font-weight: 900;
+      animation: blink 1.2s step-end infinite;
+    }
+    
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+
+    /* Stable, non-overlapping animation cycle */
+    @keyframes t1_anim {
+      0% { opacity: 0; transform: translateY(-4px); }
+      2% { opacity: 1; transform: translateY(0); }
+      21% { opacity: 1; transform: translateY(0); }
+      23% { opacity: 0; transform: translateY(-4px); }
+      100% { opacity: 0; transform: translateY(-4px); }
+    }
+    @keyframes t2_anim {
+      0% { opacity: 0; transform: translateY(-4px); }
+      25% { opacity: 0; transform: translateY(-4px); }
+      27% { opacity: 1; transform: translateY(0); }
+      46% { opacity: 1; transform: translateY(0); }
+      48% { opacity: 0; transform: translateY(-4px); }
+      100% { opacity: 0; transform: translateY(-4px); }
+    }
+    @keyframes t3_anim {
+      0% { opacity: 0; transform: translateY(-4px); }
+      50% { opacity: 0; transform: translateY(-4px); }
+      52% { opacity: 1; transform: translateY(0); }
+      71% { opacity: 1; transform: translateY(0); }
+      73% { opacity: 0; transform: translateY(-4px); }
+      100% { opacity: 0; transform: translateY(-4px); }
+    }
+    @keyframes t4_anim {
+      0% { opacity: 0; transform: translateY(-4px); }
+      75% { opacity: 0; transform: translateY(-4px); }
+      77% { opacity: 1; transform: translateY(0); }
+      96% { opacity: 1; transform: translateY(0); }
+      98% { opacity: 0; transform: translateY(-4px); }
+      100% { opacity: 0; transform: translateY(-4px); }
+    }
+    
+    .t1 { opacity: 0; animation: t1_anim 16s infinite; }
+    .t2 { opacity: 0; animation: t2_anim 16s infinite; }
+    .t3 { opacity: 0; animation: t3_anim 16s infinite; }
+    .t4 { opacity: 0; animation: t4_anim 16s infinite; }
+  </style>
+
+  <!-- Deep Background -->
+  <rect width="2000" height="560" fill="url(#bgGradient)" />
+  
+  <!-- Subtle Grid -->
+  <rect width="2000" height="560" fill="url(#gridPattern)" mask="url(#gridMask)" />
+
+  <!-- Ambient Glows -->
+  <rect width="2000" height="560" fill="url(#leftGlow)" />
+  <rect width="2000" height="560" fill="url(#rightGlow)" />
+
+  <!-- LEFT ORBITAL ARCS -->
+  <g opacity="0.85">
+    <circle cx="-100" cy="280" r="400" fill="none" stroke="#2862FF" stroke-width="1.5" stroke-opacity="0.15" />
+    <circle cx="-100" cy="280" r="550" fill="none" stroke="#2862FF" stroke-width="1" stroke-dasharray="10 20" stroke-opacity="0.2" />
+    <circle cx="-100" cy="280" r="700" fill="none" stroke="#2862FF" stroke-width="0.5" stroke-dasharray="2 12" stroke-opacity="0.35" />
+    
+    <!-- Moving Nodes -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 -100 280" to="360 -100 280" dur="40s" repeatCount="indefinite" />
+      <circle cx="300" cy="280" r="4.5" fill="#2862FF" filter="url(#glow)"/>
+      <circle cx="450" cy="280" r="2.5" fill="#2862FF" opacity="0.7"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="360 -100 280" to="0 -100 280" dur="50s" repeatCount="indefinite" />
+      <circle cx="600" cy="280" r="3" fill="#2862FF" filter="url(#glow)"/>
+      <circle cx="300" cy="280" r="2" fill="#FFFFFF" opacity="0.5"/>
+    </g>
+    
+    <!-- Crosshairs -->
+    <path d="M 300 275 L 300 285 M 295 280 L 305 280" stroke="#2862FF" stroke-width="1.5" stroke-opacity="0.6"/>
+    <path d="M 450 275 L 450 285 M 445 280 L 455 280" stroke="#2862FF" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+
+  <!-- RIGHT ORBITAL ARCS -->
+  <g opacity="0.85">
+    <circle cx="2100" cy="280" r="400" fill="none" stroke="#9D4EDD" stroke-width="1.5" stroke-opacity="0.15" />
+    <circle cx="2100" cy="280" r="550" fill="none" stroke="#9D4EDD" stroke-width="1" stroke-dasharray="10 20" stroke-opacity="0.2" />
+    <circle cx="2100" cy="280" r="700" fill="none" stroke="#9D4EDD" stroke-width="0.5" stroke-dasharray="2 12" stroke-opacity="0.35" />
+    
+    <!-- Moving Nodes -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="360 2100 280" to="0 2100 280" dur="45s" repeatCount="indefinite" />
+      <circle cx="1700" cy="280" r="4.5" fill="#9D4EDD" filter="url(#glow)"/>
+      <circle cx="1550" cy="280" r="2.5" fill="#9D4EDD" opacity="0.7"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 2100 280" to="360 2100 280" dur="55s" repeatCount="indefinite" />
+      <circle cx="1400" cy="280" r="3" fill="#9D4EDD" filter="url(#glow)"/>
+      <circle cx="1700" cy="280" r="2" fill="#FFFFFF" opacity="0.5"/>
+    </g>
+    
+    <!-- Crosshairs -->
+    <path d="M 1700 275 L 1700 285 M 1695 280 L 1705 280" stroke="#9D4EDD" stroke-width="1.5" stroke-opacity="0.6"/>
+    <path d="M 1550 275 L 1550 285 M 1545 280 L 1555 280" stroke="#9D4EDD" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+
+  <!-- CENTER CONTENT -->
+  <g text-anchor="middle">
+    
+    <!-- Status -->
+    <g transform="translate(1000, 120)">
+      <circle cx="-110" cy="-5" r="5" fill="#39D98A" filter="url(#glow)"/>
+      <text x="-90" y="0" class="status-text" text-anchor="start">SYSTEM STATUS // ONLINE</text>
+    </g>
+
+    <!-- Name -->
+    <text x="1000" y="240" text-anchor="middle">
+      <tspan class="name-white">RESHAM </tspan>
+      <tspan fill="url(#routGradient)" class="name-gradient">ROUT</tspan>
+    </text>
+    
+    <!-- Title -->
+    <text x="1000" y="305" class="title-mono">Full-Stack Software Engineer</text>
+    
+    <!-- Currently Building -->
+    <g transform="translate(1000, 425)">
+      <circle cx="-100" cy="-5" r="5" fill="#39D98A" filter="url(#glow)"/>
+      <text x="-80" y="0" class="focus-label" text-anchor="start">CURRENTLY BUILDING</text>
+      
+      <!-- Animated Text Frames -->
+      <g transform="translate(0, 50)">
+        <text x="0" y="0" class="t1">
+          <tspan class="focus-bracket">[ </tspan><tspan class="focus-text">Real-Time Systems</tspan><tspan class="focus-bracket"> ]</tspan><tspan class="cursor-line"> &#2588;</tspan>
+        </text>
+        <text x="0" y="0" class="t2">
+          <tspan class="focus-bracket">[ </tspan><tspan class="focus-text">API &amp; Cloud Systems</tspan><tspan class="focus-bracket"> ]</tspan><tspan class="cursor-line"> &#2588;</tspan>
+        </text>
+        <text x="0" y="0" class="t3">
+          <tspan class="focus-bracket">[ </tspan><tspan class="focus-text">Backend Architecture</tspan><tspan class="focus-bracket"> ]</tspan><tspan class="cursor-line"> &#2588;</tspan>
+        </text>
+        <text x="0" y="0" class="t4">
+          <tspan class="focus-bracket">[ </tspan><tspan class="focus-text">Full-Stack Products</tspan><tspan class="focus-bracket"> ]</tspan><tspan class="cursor-line"> &#2588;</tspan>
+        </text>
+      </g>
+    </g>
+
+  </g>
+</svg>
