@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-v3.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero-v3.svg">
-    <img src="assets/hero-v3.svg" alt="Resham Rout - Full-Stack Software Engineer" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-v4.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/hero-v4.svg">
+    <img src="assets/hero-v4.svg" alt="Resham Rout - Full-Stack Software Engineer" />
   </picture>
 </div>
 
