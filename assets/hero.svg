@@ -54,10 +54,6 @@
       fill: #39D98A;
       animation: pulse 2s infinite;
     }
-    .arrow {
-      fill: #4b5563;
-      font-size: 12px;
-    }
     .focus-text {
       font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
       font-weight: 500;
@@ -88,30 +84,24 @@
 
   <g text-anchor="middle">
     <!-- Tiny Metadata -->
-    <text x="400" y="30" class="metadata">SYSTEM STATUS // ONLINE</text>
+    <text x="400" y="28" class="metadata">SYSTEM STATUS // ONLINE</text>
 
     <!-- Name and Title -->
-    <text x="400" y="80" class="name">RESHAM ROUT</text>
-    <text x="400" y="110" class="title">Full-Stack Software Engineer</text>
+    <text x="400" y="74" class="name">RESHAM ROUT</text>
+    <text x="400" y="102" class="title">Full-Stack Software Engineer</text>
     
     <!-- Focus Section -->
-    <!-- We anchor everything carefully to prevent overlap -->
-    <g transform="translate(400, 155)">
-      <!-- Label centered left -->
-      <g transform="translate(-150, 0)">
-        <circle cx="0" cy="-4" r="3.5" class="dot" />
-        <text x="12" y="0" class="focus-label" text-anchor="start">CURRENTLY BUILDING</text>
-      </g>
+    <g transform="translate(400, 140)">
+      <!-- Label centered horizontally -->
+      <circle cx="-75" cy="-4" r="3.5" class="dot" />
+      <text x="-63" y="0" class="focus-label" text-anchor="start">CURRENTLY BUILDING</text>
       
-      <!-- Arrow separator -->
-      <text x="10" y="0" class="arrow" text-anchor="middle">→</text>
-      
-      <!-- Animated Text centered right -->
-      <g transform="translate(30, 0)">
-        <text x="0" y="0" class="focus-text t1" text-anchor="start">API &amp; Cloud Systems</text>
-        <text x="0" y="0" class="focus-text t2" text-anchor="start">Real-Time Systems</text>
-        <text x="0" y="0" class="focus-text t3" text-anchor="start">Backend Architecture</text>
-        <text x="0" y="0" class="focus-text t4" text-anchor="start">Full-Stack Products</text>
+      <!-- Animated Text perfectly stacked underneath -->
+      <g transform="translate(0, 22)">
+        <text x="0" y="0" class="focus-text t1" text-anchor="middle">[ API &amp; Cloud Systems ]</text>
+        <text x="0" y="0" class="focus-text t2" text-anchor="middle">[ Real-Time Systems ]</text>
+        <text x="0" y="0" class="focus-text t3" text-anchor="middle">[ Backend Architecture ]</text>
+        <text x="0" y="0" class="focus-text t4" text-anchor="middle">[ Full-Stack Products ]</text>
       </g>
     </g>
   </g>
