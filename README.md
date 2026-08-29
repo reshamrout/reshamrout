@@ -38,21 +38,17 @@ building...
 ## Dashboard
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=reshamrout&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="165" alt="GitHub Stats" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=reshamrout&theme=tokyonight&hide_border=true&layout=compact&langs_count=6" height="165" alt="Top Languages" />
+  <img src="https://streak-stats.demolab.com?user=reshamrout&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=reshamrout&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=reshamrout&theme=tokyo-night&hide_border=true&area=true" width="96%" alt="Contribution Activity Graph" />
+  <img src="https://img.shields.io/github/followers/reshamrout?label=Followers&style=flat-square&color=58a6ff&labelColor=0d1117" alt="Followers" />
+  &nbsp;
+  <img src="https://img.shields.io/github/stars/reshamrout?label=Stars&style=flat-square&color=f0e68c&labelColor=0d1117&affiliations=OWNER" alt="Stars" />
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=reshamrout&style=flat-square&color=58a6ff&label=Profile+Views" alt="Profile Views" />
 </div>
 
 ---
