@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="32" viewBox="0 0 84 32">
+  <rect x="0.5" y="0.5" width="83" height="31" rx="6" fill="transparent" stroke="#1D2938" stroke-width="1" />
+  <g transform="translate(12, 8)" fill="#5B9CFF">
+    <path d="M1.5 3h13C15.3 3 16 3.7 16 4.5v7c0 .8-.7 1.5-1.5 1.5h-13C.7 13 0 12.3 0 11.5v-7C0 3.7.7 3 1.5 3zm13 1.5H1.5v.3L8 9.5l6.5-4.7v-.3zM1.5 6v5.5h13V6L8 10.7 1.5 6z" />
+  </g>
+  <text x="36" y="21" font-family="-apple-system, sans-serif" font-size="13" font-weight="500" fill="#E2E8F0">Email</text>
+</svg>
