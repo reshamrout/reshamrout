@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0a1628,100:1f6feb&height=220&section=header&text=Resham%20Rout&fontSize=52&fontColor=e6edf3&fontAlignY=38&desc=Full-Stack%20Software%20Engineer&descAlignY=58&descSize=18&descColor=8b949e&animation=fadeIn" width="100%" alt="Resham Rout — Full-Stack Software Engineer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0a1628,100:1f6feb&height=220&section=header&text=Resham%20Rout&fontSize=52&fontColor=e6edf3&fontAlignY=38&desc=Full-Stack%20Software%20Engineer&descAlignY=58&descSize=18&descColor=8b949e&animation=fadeIn" width="100%" alt="Resham Rout - Full-Stack Software Engineer" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&repeat=true&width=520&lines=Backend+Engineering;Full-Stack+Development;API+Design+%26+Architecture;Real-Time+Systems;Cloud+Deployment" alt="Engineering Focus Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&repeat=true&width=520&lines=Backend+Engineering;Full-Stack+Development;API+Design+%26+Architecture;Real-Time+Systems;Cloud+Deployment" alt="Engineering Focus" />
 </div>
 
 <br/>
@@ -38,21 +38,21 @@ building...
 ## Dashboard
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=reshamrout&show_icons=true&theme=github_dark_dimmed&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&custom_title=GitHub+Stats" height="160" alt="GitHub Stats" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=reshamrout&theme=github_dark_dimmed&hide_border=true&layout=compact&langs_count=6&custom_title=Top+Languages" height="160" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=reshamrout&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="165" alt="GitHub Stats" />
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=reshamrout&theme=tokyonight&hide_border=true&layout=compact&langs_count=6" height="165" alt="Top Languages" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=reshamrout&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=500" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=reshamrout&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=reshamrout&theme=github-compact&hide_border=true&area=true&area_color=1f6feb&color=8b949e&line=1f6feb&point=58a6ff" width="96%" alt="Contribution Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=reshamrout&theme=tokyo-night&hide_border=true&area=true" width="96%" alt="Contribution Activity Graph" />
 </div>
 
 <br/>
@@ -61,7 +61,7 @@ building...
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/reshamrout/reshamrout/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/reshamrout/reshamrout/output/github-contribution-grid-snake.svg" />
-    <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/reshamrout/reshamrout/output/github-contribution-grid-snake-dark.svg" width="96%" />
+    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/reshamrout/reshamrout/output/github-contribution-grid-snake-dark.svg" width="96%" />
   </picture>
 </div>
 
