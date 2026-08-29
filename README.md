@@ -14,6 +14,8 @@
   <a href="mailto:reshamrout@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   &nbsp;
   <a href="https://github.com/reshamrout"><img src="https://img.shields.io/badge/GitHub-161B22?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  &nbsp;
+  <a href="https://portfolio.reshamrout.space"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=flat-square&logo=google-chrome&logoColor=58a6ff" alt="Portfolio" /></a>
 </div>
 
 <br/>
@@ -63,6 +65,8 @@ building...
       <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
       <br/><br/>
       <a href="https://github.com/reshamrout/Portfolio-website"><img src="https://img.shields.io/badge/Repository-161B22?style=flat-square&logo=github&logoColor=white" /></a>
+      &nbsp;
+      <a href="https://portfolio.reshamrout.space"><img src="https://img.shields.io/badge/Live%20Demo-1f6feb?style=flat-square&logo=google-chrome&logoColor=white" /></a>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/reshamrout/StudyNotion">StudyNotion</a></h3>
