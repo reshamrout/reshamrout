@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="230" viewBox="0 0 560 230">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <style>
+    .terminal-bg {
+      fill: #0D141B;
+      stroke: #1D2938;
+      stroke-width: 1;
+      rx: 8;
+    }
+    .header-bg {
+      fill: #121923;
+      rx: 8;
+    }
+    .text-title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 11px;
+      fill: #6B7280;
+      letter-spacing: 0.5px;
+    }
+    .code {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .prompt { fill: #5B9CFF; font-weight: 600; }
+    .command { fill: #E2E8F0; font-weight: 500; }
+    .output { fill: #8B95A7; font-weight: 400; }
+    .cursor {
+      fill: #E2E8F0;
+      animation: blink 1s step-end infinite;
+    }
+    
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
+
+  <!-- Container -->
+  <!-- Increased height to 200 to fit all text properly -->
+  <rect x="10" y="10" width="540" height="200" class="terminal-bg" filter="url(#shadow)" />
+  
+  <!-- Header -->
+  <!-- Top rounded corners only for header background -->
+  <path d="M10 18 a8 8 0 0 1 8 -8 h 524 a8 8 0 0 1 8 8 v 18 h -540 z" class="header-bg" />
+  <line x1="10" y1="36" x2="550" y2="36" stroke="#1D2938" stroke-width="1" />
+  
+  <!-- Window Controls (Traffic Lights) -->
+  <circle cx="28" cy="23" r="5" fill="#ED6A5E" />
+  <circle cx="44" cy="23" r="5" fill="#F4BF4F" />
+  <circle cx="60" cy="23" r="5" fill="#61C554" />
+
+  <!-- Title -->
+  <text x="280" y="27" class="text-title" text-anchor="middle">resham@dev ~</text>
+
+  <!-- Terminal Content -->
+  <g class="code" transform="translate(28, 66)">
+    <!-- Command 1 -->
+    <text y="0">
+      <tspan class="prompt">$ </tspan>
+      <tspan class="command">whoami</tspan>
+    </text>
+    <text y="20" class="output">full-stack-software-engineer</text>
+
+    <!-- Command 2 -->
+    <text y="54">
+      <tspan class="prompt">$ </tspan>
+      <tspan class="command">focus</tspan>
+    </text>
+    <text y="74" class="output">APIs · backend · systems · cloud</text>
+
+    <!-- Command 3 -->
+    <text y="108">
+      <tspan class="prompt">$ </tspan>
+      <tspan class="command">status</tspan>
+    </text>
+    <text y="128" class="output">building...</text>
+    
+    <!-- Cursor █ -->
+    <text x="96" y="128" class="cursor">█</text>
+  </g>
+</svg>
