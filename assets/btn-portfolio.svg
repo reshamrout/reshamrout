@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="98" height="32" viewBox="0 0 98 32">
+  <rect x="0.5" y="0.5" width="97" height="31" rx="6" fill="transparent" stroke="#1D2938" stroke-width="1" />
+  <g transform="translate(12, 8)" stroke="#5B9CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M4 12 L12 4 M4 4 L12 4 L12 12" />
+  </g>
+  <text x="34" y="21" font-family="-apple-system, sans-serif" font-size="13" font-weight="500" fill="#E2E8F0">Portfolio</text>
+</svg>
