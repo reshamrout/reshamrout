@@ -1,107 +1,176 @@
-# Resham Rout
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0a1628,100:1f6feb&height=220&section=header&text=Resham%20Rout&fontSize=52&fontColor=e6edf3&fontAlignY=38&desc=Full-Stack%20Software%20Engineer&descAlignY=58&descSize=18&descColor=8b949e&animation=fadeIn" width="100%" alt="Resham Rout — Full-Stack Software Engineer" />
+</div>
 
-**Full-Stack Software Engineer**
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&repeat=true&width=520&lines=Backend+Engineering;Full-Stack+Development;API+Design+%26+Architecture;Real-Time+Systems;Cloud+Deployment" alt="Engineering Focus Animation" />
+</div>
 
-I build backend-heavy, production-oriented web applications. My work spans REST API design, authentication systems, database architecture, and end-to-end application delivery — from schema design through frontend interface and cloud deployment.
+<br/>
 
-Currently focused on the Node.js / React ecosystem, with a strong interest in backend architecture, system design, and building software that works reliably in production.
+<div align="center">
+  <a href="https://www.linkedin.com/in/reshamrout26"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  &nbsp;
+  <a href="mailto:reshamrout@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  &nbsp;
+  <a href="https://github.com/reshamrout"><img src="https://img.shields.io/badge/GitHub-161B22?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+</div>
+
+<br/>
+
+<div align="center">
+
+```
+~/resham $ whoami
+full-stack-software-engineer
+
+~/resham $ focus
+APIs  ·  backend  ·  systems  ·  real-time  ·  cloud
+
+~/resham $ status
+building...
+```
+
+</div>
 
 ---
 
-## What I Build
+## Dashboard
 
-- **Marketplace platforms** — multi-role systems with transactional workflows, real-time updates, and authorization layers
-- **AI-integrated applications** — connecting third-party LLM/ML APIs into cohesive full-stack products
-- **Backend APIs** — REST services with JWT authentication, role-based access control, and database-driven business logic
-- **Data-driven web apps** — applications built around structured data flows, user state, and persistent storage
-- **Deployment-ready software** — applications configured for Vercel and cloud hosting with proper environment management
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=reshamrout&show_icons=true&theme=github_dark_dimmed&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&custom_title=GitHub+Stats" height="160" alt="GitHub Stats" />
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=reshamrout&theme=github_dark_dimmed&hide_border=true&layout=compact&langs_count=6&custom_title=Top+Languages" height="160" alt="Top Languages" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=reshamrout&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=500" alt="GitHub Streak" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=reshamrout&theme=github-compact&hide_border=true&area=true&area_color=1f6feb&color=8b949e&line=1f6feb&point=58a6ff" width="96%" alt="Contribution Activity Graph" />
+</div>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/reshamrout/reshamrout/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/reshamrout/reshamrout/output/github-contribution-grid-snake.svg" />
+    <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/reshamrout/reshamrout/output/github-contribution-grid-snake-dark.svg" width="96%" />
+  </picture>
+</div>
 
 ---
 
 ## Featured Projects
 
-### [GigFlow](https://github.com/reshamrout/gigflow) — Freelance Marketplace
-
-A full-stack freelance marketplace where clients post gigs and freelancers submit bids. The core engineering challenge is a **transactional hiring flow** that atomically updates bid statuses and prevents race conditions using MongoDB transactions.
-
-**Engineering focus:** transactional data integrity, JWT auth with HttpOnly cookies, real-time Socket.io notifications, role-based authorization, gig lifecycle state management
-
-`Node.js` `Express` `MongoDB` `React` `Socket.io` `JWT`
-
-[Live →](https://gigflow-lovat.vercel.app/) · [Repository →](https://github.com/reshamrout/gigflow)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/reshamrout/gigflow">GigFlow</a></h3>
+      <sub>Freelance marketplace with transactional hiring, real-time Socket.io notifications, and JWT auth via HttpOnly cookies.</sub>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+      <img src="https://img.shields.io/badge/Node.js-1a1a1a?style=flat-square&logo=node.js&logoColor=339933" />
+      <img src="https://img.shields.io/badge/MongoDB-1a1a1a?style=flat-square&logo=mongodb&logoColor=47A248" />
+      <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white" />
+      <br/><br/>
+      <a href="https://github.com/reshamrout/gigflow"><img src="https://img.shields.io/badge/Repository-161B22?style=flat-square&logo=github&logoColor=white" /></a>
+      &nbsp;
+      <a href="https://gigflow-lovat.vercel.app/"><img src="https://img.shields.io/badge/Live%20Demo-1f6feb?style=flat-square&logo=vercel&logoColor=white" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/reshamrout/ai-fitness-coach">AI Fitness Coach</a></h3>
+      <sub>AI-powered workout &amp; diet planner integrating Gemini API, ElevenLabs TTS, and Vercel serverless functions for secure API proxying.</sub>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+      <img src="https://img.shields.io/badge/Gemini_API-1a1a1a?style=flat-square&logo=google&logoColor=4285F4" />
+      <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+      <br/><br/>
+      <a href="https://github.com/reshamrout/ai-fitness-coach"><img src="https://img.shields.io/badge/Repository-161B22?style=flat-square&logo=github&logoColor=white" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/reshamrout/bookIT-frontend">bookIT</a></h3>
+      <sub>Travel booking platform — React frontend on Vercel, Express API on Render, with search, filters, and booking flows.</sub>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+      <img src="https://img.shields.io/badge/Express-1a1a1a?style=flat-square&logo=express&logoColor=white" />
+      <img src="https://img.shields.io/badge/Node.js-1a1a1a?style=flat-square&logo=node.js&logoColor=339933" />
+      <br/><br/>
+      <a href="https://github.com/reshamrout/bookIT-frontend"><img src="https://img.shields.io/badge/Repository-161B22?style=flat-square&logo=github&logoColor=white" /></a>
+      &nbsp;
+      <a href="https://book-it-frontend-two.vercel.app/"><img src="https://img.shields.io/badge/Live%20Demo-1f6feb?style=flat-square&logo=vercel&logoColor=white" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/reshamrout/NeoScholar">NeoScholar</a></h3>
+      <sub>Scholarship portal with dual student &amp; admin portals, role-based access, and full application lifecycle management.</sub>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+      <img src="https://img.shields.io/badge/Node.js-1a1a1a?style=flat-square&logo=node.js&logoColor=339933" />
+      <img src="https://img.shields.io/badge/MongoDB-1a1a1a?style=flat-square&logo=mongodb&logoColor=47A248" />
+      <br/><br/>
+      <a href="https://github.com/reshamrout/NeoScholar"><img src="https://img.shields.io/badge/Repository-161B22?style=flat-square&logo=github&logoColor=white" /></a>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### [AI Fitness Coach](https://github.com/reshamrout/ai-fitness-coach) — AI-Integrated Web Application
+## Tech Stack
 
-A React application that generates personalized 7-day workout and diet plans by integrating Google Gemini's API, ElevenLabs for text-to-speech, and serverless Vercel functions to securely proxy API calls. Includes PDF export and local storage persistence.
+<div align="center">
 
-**Engineering focus:** API integration architecture, serverless functions for secure key proxying, dynamic prompt construction, multi-source data composition
+**Languages**&nbsp;&nbsp;
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-`React` `Vite` `Gemini API` `ElevenLabs API` `Vercel Serverless` `Tailwind CSS`
+**Frontend**&nbsp;&nbsp;
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-[Repository →](https://github.com/reshamrout/ai-fitness-coach)
+**Backend**&nbsp;&nbsp;
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-404D59?style=flat-square&logo=express&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
 
----
+**Data / Cloud**&nbsp;&nbsp;
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
 
-### [bookIT](https://github.com/reshamrout/bookIT-frontend) — Travel Booking Platform
+</div>
 
-A full-stack travel booking application with a React frontend deployed on Vercel and an Express backend hosted on Render. Features browseable destination listings, search and filtering, and booking flows.
+<br/>
 
-**Engineering focus:** full-stack separation, REST API consumption, client-side routing, responsive UI
-
-`React` `Vite` `Tailwind CSS` `Express` `Node.js`
-
-[Live →](https://book-it-frontend-two.vercel.app/) · [Repository →](https://github.com/reshamrout/bookIT-frontend)
-
----
-
-### [NeoScholar](https://github.com/reshamrout/NeoScholar) — Scholarship Management Portal
-
-A MERN stack portal for student scholarship applications with dual portals — a student-facing application flow and an admin dashboard for reviewing, approving, and managing applications.
-
-**Engineering focus:** multi-role access control, admin/user separation, CRUD-driven data management, application lifecycle tracking
-
-`Node.js` `Express` `MongoDB` `React`
-
-[Repository →](https://github.com/reshamrout/NeoScholar)
-
----
-
-## Technical Stack
+<details>
+<summary><b>Full stack detail</b></summary>
+<br/>
 
 | Area | Technologies |
 |---|---|
-| **Languages** | JavaScript, TypeScript, Java, Python, C/C++ |
-| **Frontend** | React, Next.js, Tailwind CSS, HTML/CSS |
-| **Backend** | Node.js, Express, Spring, FastAPI, Flask |
-| **Databases** | MongoDB, PostgreSQL, MySQL, Redis |
-| **Cloud & Hosting** | AWS, Azure, Google Cloud, Cloudflare, Vercel, Render |
-| **Tools** | Git, GitHub, Docker, Kubernetes, Socket.io, JWT |
-| **Data & ML** | NumPy, Pandas, TensorFlow, PyTorch, scikit-learn |
+| Languages | JavaScript, TypeScript, Java, Python, C/C++ |
+| Frontend | React, Next.js, Tailwind CSS, HTML/CSS, Vite |
+| Backend | Node.js, Express, Spring, FastAPI, Flask |
+| Databases | MongoDB, PostgreSQL, MySQL, Redis |
+| Cloud | AWS, Azure, Google Cloud, Cloudflare, Vercel, Render |
+| Tools | Git, GitHub, Docker, Kubernetes, Socket.io, JWT |
+| Data / ML | NumPy, Pandas, TensorFlow, PyTorch, scikit-learn |
+
+</details>
 
 ---
-
-## Engineering Principles
-
-- Backend is the source of truth. Frontend convenience never overrides server-side authorization.
-- Design APIs around clear contracts. Predictable inputs and outputs make systems easier to maintain.
-- Use transactions where data consistency matters. Race conditions are bugs, not edge cases.
-- Keep architecture simple until complexity is justified by a real requirement.
-- Build for deployment, not just local development.
-
----
-
-## GitHub Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=reshamrout&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" height="160" alt="GitHub Stats" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=reshamrout&theme=github_dark&hide_border=true&layout=compact&langs_count=6" height="160" alt="Top Languages" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,60:0a1628,100:0d1117&height=100&section=footer" width="100%" alt="Footer" />
 </div>
-
----
-
-## Connect
-
-[LinkedIn](https://www.linkedin.com/in/reshamrout26) &nbsp;·&nbsp; [Email](mailto:reshamrout@gmail.com) &nbsp;·&nbsp; [GitHub](https://github.com/reshamrout)
