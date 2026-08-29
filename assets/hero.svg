@@ -1,19 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="240" viewBox="0 0 800 240">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="180" viewBox="0 0 800 180">
   <defs>
-    <!-- Background Gradient -->
-    <radialGradient id="glow" cx="50%" cy="0%" r="70%">
-      <stop offset="0%" stop-color="#141c2b" />
-      <stop offset="100%" stop-color="#080B10" />
+    <!-- Background Gradient (Very Subtle) -->
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0f1624" />
+      <stop offset="50%" stop-color="#0b1017" />
+      <stop offset="100%" stop-color="#080b10" />
     </radialGradient>
     
-    <!-- Grid Pattern -->
+    <!-- Grid Pattern (Reduced visibility) -->
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#202938" stroke-width="0.5" stroke-opacity="0.5"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#202938" stroke-width="0.5" stroke-opacity="0.2"/>
     </pattern>
 
-    <!-- Typing Glow -->
     <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feGaussianBlur stdDeviation="3" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
@@ -25,45 +25,55 @@
     .name {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       font-weight: 800;
-      font-size: 42px;
+      font-size: 38px;
       fill: #F3F6FA;
-      letter-spacing: 4px;
+      letter-spacing: 2px;
     }
     .title {
       font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
       font-weight: 400;
-      font-size: 16px;
+      font-size: 15px;
       fill: #8B95A7;
-      letter-spacing: 1px;
+      letter-spacing: 0.5px;
+    }
+    .metadata {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      font-weight: 500;
+      font-size: 10px;
+      fill: #4b5563;
+      letter-spacing: 1.5px;
     }
     .focus-label {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      font-weight: 700;
+      font-weight: 600;
       font-size: 12px;
-      fill: #8B95A7;
-      letter-spacing: 2px;
+      fill: #6b7280;
+      letter-spacing: 1.5px;
     }
     .dot {
       fill: #39D98A;
       animation: pulse 2s infinite;
     }
+    .arrow {
+      fill: #4b5563;
+      font-size: 12px;
+    }
     .focus-text {
       font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-      font-weight: 600;
-      font-size: 14px;
+      font-weight: 500;
+      font-size: 13px;
       fill: #5B9CFF;
       filter: url(#textGlow);
     }
     
-    /* Animations */
     @keyframes pulse {
-      0% { opacity: 0.4; }
+      0% { opacity: 0.3; }
       50% { opacity: 1; }
-      100% { opacity: 0.4; }
+      100% { opacity: 0.3; }
     }
     @keyframes fadeCycle {
-      0%, 15% { opacity: 1; transform: translateY(0); }
-      20%, 95% { opacity: 0; transform: translateY(-5px); }
+      0%, 20% { opacity: 1; transform: translateY(0); }
+      25%, 95% { opacity: 0; transform: translateY(-3px); }
       100% { opacity: 1; transform: translateY(0); }
     }
     .t1 { animation: fadeCycle 12s infinite; animation-delay: 0s; }
@@ -72,28 +82,37 @@
     .t4 { animation: fadeCycle 12s infinite; animation-delay: 9s; opacity: 0; }
   </style>
 
-  <!-- Background -->
+  <!-- Background Layer -->
   <rect width="100%" height="100%" fill="url(#glow)" />
   <rect width="100%" height="100%" fill="url(#grid)" />
 
-  <!-- Main Content -->
   <g text-anchor="middle">
-    <!-- Name -->
-    <text x="400" y="90" class="name">RESHAM ROUT</text>
+    <!-- Tiny Metadata -->
+    <text x="400" y="30" class="metadata">SYSTEM STATUS // ONLINE</text>
+
+    <!-- Name and Title -->
+    <text x="400" y="80" class="name">RESHAM ROUT</text>
+    <text x="400" y="110" class="title">Full-Stack Software Engineer</text>
     
-    <!-- Title -->
-    <text x="400" y="125" class="title">Full-Stack Software Engineer</text>
-    
-    <!-- Focus Indicator -->
-    <g transform="translate(400, 180)">
-      <circle cx="-100" cy="-4" r="4" class="dot" />
-      <text x="-85" y="0" class="focus-label" text-anchor="start">CURRENTLY BUILDING</text>
+    <!-- Focus Section -->
+    <!-- We anchor everything carefully to prevent overlap -->
+    <g transform="translate(400, 155)">
+      <!-- Label centered left -->
+      <g transform="translate(-150, 0)">
+        <circle cx="0" cy="-4" r="3.5" class="dot" />
+        <text x="12" y="0" class="focus-label" text-anchor="start">CURRENTLY BUILDING</text>
+      </g>
       
-      <!-- Animated Text -->
-      <text x="75" y="1" class="focus-text t1" text-anchor="start">Real-Time Systems</text>
-      <text x="75" y="1" class="focus-text t2" text-anchor="start">Backend Architecture</text>
-      <text x="75" y="1" class="focus-text t3" text-anchor="start">API &amp; Cloud Systems</text>
-      <text x="75" y="1" class="focus-text t4" text-anchor="start">Scalable Products</text>
+      <!-- Arrow separator -->
+      <text x="10" y="0" class="arrow" text-anchor="middle">→</text>
+      
+      <!-- Animated Text centered right -->
+      <g transform="translate(30, 0)">
+        <text x="0" y="0" class="focus-text t1" text-anchor="start">API &amp; Cloud Systems</text>
+        <text x="0" y="0" class="focus-text t2" text-anchor="start">Real-Time Systems</text>
+        <text x="0" y="0" class="focus-text t3" text-anchor="start">Backend Architecture</text>
+        <text x="0" y="0" class="focus-text t4" text-anchor="start">Full-Stack Products</text>
+      </g>
     </g>
   </g>
 </svg>
