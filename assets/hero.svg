@@ -1,15 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="180" viewBox="0 0 800 180">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="210" viewBox="0 0 800 210">
   <defs>
-    <!-- Background Gradient (Very Subtle) -->
+    <!-- Background Gradient: Transparent at edges -->
     <radialGradient id="glow" cx="50%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#0f1624" />
-      <stop offset="50%" stop-color="#0b1017" />
-      <stop offset="100%" stop-color="#080b10" />
+      <stop offset="0%" stop-color="#1c2433" stop-opacity="0.6" />
+      <stop offset="40%" stop-color="#121822" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
     </radialGradient>
     
-    <!-- Grid Pattern (Reduced visibility) -->
+    <!-- Fade mask for the grid so it disappears at the edges -->
+    <radialGradient id="fade" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="white" stop-opacity="1" />
+      <stop offset="60%" stop-color="white" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="white" stop-opacity="0" />
+    </radialGradient>
+    <mask id="fadeMask">
+      <rect width="100%" height="100%" fill="url(#fade)" />
+    </mask>
+
+    <!-- Grid Pattern -->
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#202938" stroke-width="0.5" stroke-opacity="0.2"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#202938" stroke-width="0.5" stroke-opacity="0.4"/>
     </pattern>
 
     <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
@@ -79,19 +89,24 @@
   </style>
 
   <!-- Background Layer -->
-  <rect width="100%" height="100%" fill="url(#glow)" />
-  <rect width="100%" height="100%" fill="url(#grid)" />
+  <!-- We use transparent background instead of a harsh rectangle -->
+  <rect width="100%" height="100%" fill="transparent" />
+  
+  <g mask="url(#fadeMask)">
+    <rect width="100%" height="100%" fill="url(#glow)" />
+    <rect width="100%" height="100%" fill="url(#grid)" />
+  </g>
 
   <g text-anchor="middle">
     <!-- Tiny Metadata -->
-    <text x="400" y="28" class="metadata">SYSTEM STATUS // ONLINE</text>
+    <text x="400" y="45" class="metadata">SYSTEM STATUS // ONLINE</text>
 
     <!-- Name and Title -->
-    <text x="400" y="74" class="name">RESHAM ROUT</text>
-    <text x="400" y="102" class="title">Full-Stack Software Engineer</text>
+    <text x="400" y="91" class="name">RESHAM ROUT</text>
+    <text x="400" y="119" class="title">Full-Stack Software Engineer</text>
     
     <!-- Focus Section -->
-    <g transform="translate(400, 140)">
+    <g transform="translate(400, 155)">
       <!-- Label centered horizontally -->
       <circle cx="-75" cy="-4" r="3.5" class="dot" />
       <text x="-63" y="0" class="focus-label" text-anchor="start">CURRENTLY BUILDING</text>
