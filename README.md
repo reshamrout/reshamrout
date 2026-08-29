@@ -56,18 +56,28 @@ building...
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/reshamrout/gigflow">GigFlow</a></h3>
-      <sub>Freelance marketplace with transactional hiring, real-time Socket.io notifications, and JWT auth via HttpOnly cookies.</sub>
+      <h3><a href="https://github.com/reshamrout/Portfolio-website">Portfolio Website</a></h3>
+      <sub>Personal developer portfolio built with pure HTML and CSS — no frameworks, fully custom layout and styling.</sub>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+      <br/><br/>
+      <a href="https://github.com/reshamrout/Portfolio-website"><img src="https://img.shields.io/badge/Repository-161B22?style=flat-square&logo=github&logoColor=white" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/reshamrout/StudyNotion">StudyNotion</a></h3>
+      <sub>Full-stack EdTech platform for online learning with course management, user authentication, and a complete backend API.</sub>
       <br/><br/>
       <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
       <img src="https://img.shields.io/badge/Node.js-1a1a1a?style=flat-square&logo=node.js&logoColor=339933" />
-      <img src="https://img.shields.io/badge/MongoDB-1a1a1a?style=flat-square&logo=mongodb&logoColor=47A248" />
-      <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white" />
+      <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
       <br/><br/>
-      <a href="https://github.com/reshamrout/gigflow"><img src="https://img.shields.io/badge/Repository-161B22?style=flat-square&logo=github&logoColor=white" /></a>
+      <a href="https://github.com/reshamrout/StudyNotion"><img src="https://img.shields.io/badge/Repository-161B22?style=flat-square&logo=github&logoColor=white" /></a>
       &nbsp;
-      <a href="https://gigflow-lovat.vercel.app/"><img src="https://img.shields.io/badge/Live%20Demo-1f6feb?style=flat-square&logo=vercel&logoColor=white" /></a>
+      <a href="https://study-notion-psi-ashy.vercel.app/"><img src="https://img.shields.io/badge/Live%20Demo-1f6feb?style=flat-square&logo=vercel&logoColor=white" /></a>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/reshamrout/ai-fitness-coach">AI Fitness Coach</a></h3>
       <sub>AI-powered workout &amp; diet planner integrating Gemini API, ElevenLabs TTS, and Vercel serverless functions for secure API proxying.</sub>
@@ -77,20 +87,6 @@ building...
       <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
       <br/><br/>
       <a href="https://github.com/reshamrout/ai-fitness-coach"><img src="https://img.shields.io/badge/Repository-161B22?style=flat-square&logo=github&logoColor=white" /></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/reshamrout/bookIT-frontend">bookIT</a></h3>
-      <sub>Travel booking platform — React frontend on Vercel, Express API on Render, with search, filters, and booking flows.</sub>
-      <br/><br/>
-      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-      <img src="https://img.shields.io/badge/Express-1a1a1a?style=flat-square&logo=express&logoColor=white" />
-      <img src="https://img.shields.io/badge/Node.js-1a1a1a?style=flat-square&logo=node.js&logoColor=339933" />
-      <br/><br/>
-      <a href="https://github.com/reshamrout/bookIT-frontend"><img src="https://img.shields.io/badge/Repository-161B22?style=flat-square&logo=github&logoColor=white" /></a>
-      &nbsp;
-      <a href="https://book-it-frontend-two.vercel.app/"><img src="https://img.shields.io/badge/Live%20Demo-1f6feb?style=flat-square&logo=vercel&logoColor=white" /></a>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/reshamrout/NeoScholar">NeoScholar</a></h3>
