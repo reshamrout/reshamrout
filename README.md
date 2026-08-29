@@ -1,39 +1,34 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0a1628,100:1f6feb&height=220&section=header&text=Resham%20Rout&fontSize=52&fontColor=e6edf3&fontAlignY=38&desc=Full-Stack%20Software%20Engineer&descAlignY=58&descSize=18&descColor=8b949e&animation=fadeIn" width="100%" alt="Resham Rout - Full-Stack Software Engineer" />
-</div>
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&repeat=true&width=520&lines=Backend+Engineering;Full-Stack+Development;API+Design+%26+Architecture;Real-Time+Systems;Cloud+Deployment" alt="Engineering Focus" />
-</div>
-
-<br/>
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/reshamrout26"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  &nbsp;
-  <a href="mailto:reshamrout@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  &nbsp;
-  <a href="https://github.com/reshamrout"><img src="https://img.shields.io/badge/GitHub-161B22?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-  &nbsp;
-  <a href="https://portfolio.reshamrout.space"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=flat-square&logo=google-chrome&logoColor=58a6ff" alt="Portfolio" /></a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/hero.svg">
+    <img src="assets/hero.svg" alt="Resham Rout - Full-Stack Software Engineer" />
+  </picture>
 </div>
 
 <br/>
 
 <div align="center">
-
-```
-~/resham $ whoami
-full-stack-software-engineer
-
-~/resham $ focus
-APIs  ·  backend  ·  systems  ·  real-time  ·  cloud
-
-~/resham $ status
-building...
-```
-
+  <a href="https://www.linkedin.com/in/reshamrout26"><img src="https://img.shields.io/badge/LinkedIn-10151D?style=flat&logo=linkedin&logoColor=5B9CFF&labelColor=10151D" alt="LinkedIn" /></a>
+  &nbsp;
+  <a href="mailto:reshamrout@gmail.com"><img src="https://img.shields.io/badge/Email-10151D?style=flat&logo=gmail&logoColor=5B9CFF&labelColor=10151D" alt="Email" /></a>
+  &nbsp;
+  <a href="https://github.com/reshamrout"><img src="https://img.shields.io/badge/GitHub-10151D?style=flat&logo=github&logoColor=5B9CFF&labelColor=10151D" alt="GitHub" /></a>
+  &nbsp;
+  <a href="https://portfolio.reshamrout.space"><img src="https://img.shields.io/badge/Portfolio-10151D?style=flat&logo=google-chrome&logoColor=5B9CFF&labelColor=10151D" alt="Portfolio" /></a>
 </div>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/terminal.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/terminal.svg">
+    <img src="assets/terminal.svg" alt="Terminal UI" />
+  </picture>
+</div>
+
+<br/>
 
 ---
 
