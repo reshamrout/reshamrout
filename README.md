@@ -1,30 +1,28 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-v2.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero-v2.svg">
-    <img src="assets/hero-v2.svg" alt="Resham Rout - Full-Stack Software Engineer" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-v3.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/hero-v3.svg">
+    <img src="assets/hero-v3.svg" alt="Resham Rout - Full-Stack Software Engineer" />
   </picture>
 </div>
 
-<br/>
-
 <div align="center">
-  <a href="https://www.linkedin.com/in/reshamrout26"><img src="https://img.shields.io/badge/LinkedIn-0D141B?style=flat&logo=linkedin&logoColor=white&labelColor=0D141B" alt="LinkedIn" /></a>
-  &nbsp;&nbsp;
-  <a href="mailto:reshamrout@gmail.com"><img src="https://img.shields.io/badge/Email-0D141B?style=flat&logo=gmail&logoColor=white&labelColor=0D141B" alt="Email" /></a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/reshamrout"><img src="https://img.shields.io/badge/GitHub-0D141B?style=flat&logo=github&logoColor=white&labelColor=0D141B" alt="GitHub" /></a>
-  &nbsp;&nbsp;
-  <a href="https://portfolio.reshamrout.space"><img src="https://img.shields.io/badge/Portfolio-0D141B?style=flat&logo=google-chrome&logoColor=white&labelColor=0D141B" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/reshamrout26"><img src="assets/btn-linkedin.svg" alt="LinkedIn" /></a>
+  &nbsp;
+  <a href="mailto:reshamrout@gmail.com"><img src="assets/btn-email.svg" alt="Email" /></a>
+  &nbsp;
+  <a href="https://github.com/reshamrout"><img src="assets/btn-github.svg" alt="GitHub" /></a>
+  &nbsp;
+  <a href="https://portfolio.reshamrout.space"><img src="assets/btn-portfolio.svg" alt="Portfolio" /></a>
 </div>
 
 <br/>
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-v2.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/terminal-v2.svg">
-    <img src="assets/terminal-v2.svg" alt="Terminal UI" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-v3.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/terminal-v3.svg">
+    <img src="assets/terminal-v3.svg" alt="Terminal UI" />
   </picture>
 </div>
 
