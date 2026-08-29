@@ -1,36 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260">
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="190" viewBox="0 0 560 190">
   <defs>
     <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.4"/>
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.3"/>
     </filter>
   </defs>
 
   <style>
     .terminal-bg {
-      fill: #10151D;
-      stroke: #202938;
-      stroke-width: 1.5;
-      rx: 10;
+      fill: #0D141B;
+      stroke: #1D2938;
+      stroke-width: 1;
+      rx: 8;
     }
     .header-bg {
-      fill: #161C26;
-      rx: 10;
+      fill: #121923;
+      rx: 8;
     }
     .text-title {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      font-size: 13px;
-      fill: #8B95A7;
+      font-size: 11px;
+      fill: #6B7280;
+      letter-spacing: 0.5px;
     }
     .code {
       font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-      font-size: 14px;
-      line-height: 1.6;
+      font-size: 13px;
+      line-height: 1.5;
     }
     .prompt { fill: #5B9CFF; font-weight: 600; }
-    .command { fill: #F3F6FA; font-weight: 600; }
-    .output { fill: #8B95A7; }
+    .command { fill: #E2E8F0; font-weight: 500; }
+    .output { fill: #8B95A7; font-weight: 400; }
     .cursor {
-      fill: #F3F6FA;
+      fill: #E2E8F0;
       animation: blink 1s step-end infinite;
     }
     
@@ -41,44 +42,45 @@
   </style>
 
   <!-- Container -->
-  <rect x="10" y="10" width="580" height="240" class="terminal-bg" filter="url(#shadow)" />
+  <rect x="10" y="10" width="540" height="170" class="terminal-bg" filter="url(#shadow)" />
   
   <!-- Header -->
-  <path d="M10 20 a10 10 0 0 1 10 -10 h 560 a10 10 0 0 1 10 10 v 26 h -580 z" class="header-bg" />
-  <line x1="10" y1="46" x2="590" y2="46" stroke="#202938" stroke-width="1.5" />
+  <!-- Top rounded corners only for header background -->
+  <path d="M10 18 a8 8 0 0 1 8 -8 h 524 a8 8 0 0 1 8 8 v 18 h -540 z" class="header-bg" />
+  <line x1="10" y1="36" x2="550" y2="36" stroke="#1D2938" stroke-width="1" />
   
-  <!-- Window Controls -->
-  <circle cx="30" cy="28" r="6" fill="#ED6A5E" />
-  <circle cx="50" cy="28" r="6" fill="#F4BF4F" />
-  <circle cx="70" cy="28" r="6" fill="#61C554" />
+  <!-- Window Controls (Traffic Lights) -->
+  <circle cx="28" cy="23" r="5" fill="#ED6A5E" />
+  <circle cx="44" cy="23" r="5" fill="#F4BF4F" />
+  <circle cx="60" cy="23" r="5" fill="#61C554" />
 
   <!-- Title -->
-  <text x="300" y="32" class="text-title" text-anchor="middle">resham@dev ~</text>
+  <text x="280" y="27" class="text-title" text-anchor="middle">resham@dev ~</text>
 
   <!-- Terminal Content -->
-  <g class="code" transform="translate(30, 80)">
+  <g class="code" transform="translate(28, 62)">
     <!-- Command 1 -->
     <text y="0">
       <tspan class="prompt">$ </tspan>
       <tspan class="command">whoami</tspan>
     </text>
-    <text y="24" class="output">full-stack-software-engineer</text>
+    <text y="20" class="output">full-stack-software-engineer</text>
 
     <!-- Command 2 -->
-    <text y="64">
+    <text y="50">
       <tspan class="prompt">$ </tspan>
       <tspan class="command">focus</tspan>
     </text>
-    <text y="88" class="output">APIs · backend · systems · cloud</text>
+    <text y="70" class="output">APIs · backend · systems · cloud</text>
 
     <!-- Command 3 -->
-    <text y="128">
+    <text y="100">
       <tspan class="prompt">$ </tspan>
       <tspan class="command">status</tspan>
     </text>
-    <text y="152" class="output">building...</text>
+    <text y="120" class="output">building...</text>
     
-    <!-- Cursor -->
-    <rect x="110" y="140" width="8" height="14" class="cursor" />
+    <!-- Cursor █ -->
+    <text x="96" y="120" class="cursor">█</text>
   </g>
 </svg>
