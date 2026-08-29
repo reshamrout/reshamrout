@@ -6,19 +6,15 @@
   </picture>
 </div>
 
-<br/>
-
 <div align="center">
-  <a href="https://www.linkedin.com/in/reshamrout26"><img src="https://img.shields.io/badge/LinkedIn-10151D?style=flat&logo=linkedin&logoColor=5B9CFF&labelColor=10151D" alt="LinkedIn" /></a>
-  &nbsp;
-  <a href="mailto:reshamrout@gmail.com"><img src="https://img.shields.io/badge/Email-10151D?style=flat&logo=gmail&logoColor=5B9CFF&labelColor=10151D" alt="Email" /></a>
-  &nbsp;
-  <a href="https://github.com/reshamrout"><img src="https://img.shields.io/badge/GitHub-10151D?style=flat&logo=github&logoColor=5B9CFF&labelColor=10151D" alt="GitHub" /></a>
-  &nbsp;
-  <a href="https://portfolio.reshamrout.space"><img src="https://img.shields.io/badge/Portfolio-10151D?style=flat&logo=google-chrome&logoColor=5B9CFF&labelColor=10151D" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/reshamrout26"><img src="https://img.shields.io/badge/LinkedIn-0D141B?style=flat&logo=linkedin&logoColor=5B9CFF&labelColor=0D141B" alt="LinkedIn" /></a>
+  &nbsp;&nbsp;
+  <a href="mailto:reshamrout@gmail.com"><img src="https://img.shields.io/badge/Email-0D141B?style=flat&logo=gmail&logoColor=5B9CFF&labelColor=0D141B" alt="Email" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/reshamrout"><img src="https://img.shields.io/badge/GitHub-0D141B?style=flat&logo=github&logoColor=5B9CFF&labelColor=0D141B" alt="GitHub" /></a>
+  &nbsp;&nbsp;
+  <a href="https://portfolio.reshamrout.space"><img src="https://img.shields.io/badge/Portfolio-0D141B?style=flat&logo=google-chrome&logoColor=5B9CFF&labelColor=0D141B" alt="Portfolio" /></a>
 </div>
-
-<br/>
 
 <div align="center">
   <picture>
